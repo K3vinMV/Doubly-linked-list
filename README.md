@@ -1,4 +1,4 @@
-#Doubly Linked List in C++
+##Doubly Linked List in C++
 
 This repository contains an implementation of a doubly singly linked list in C++. It includes basic operations for manipulating the list. This project is designed for those looking to understand the fundamentals of doubly linked list data structures and learn how to implement them in C++.
 
