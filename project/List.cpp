@@ -214,15 +214,16 @@ Node* List::last()
 
 Node* List::next(int id)
 {
-    Node *aux=h;
-
-    while(aux->data.code!=id)
+    Node *aux = h;
+    while(aux != nullptr && aux->data.code != id)
     {
-        aux=aux->next;
-    }if((aux->data.code==id)&&(aux->next!=nullptr))
+        aux = aux->next;
+    }
+    if(aux != nullptr && aux->data.code == id && aux->next != nullptr)
     {
-        return aux;
-    }else
+        return aux->next;
+    }
+    else
     {
         return nullptr;
     }

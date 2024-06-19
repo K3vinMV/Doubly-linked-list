@@ -34,7 +34,7 @@ int main()
         cout<<"14.-Display list"<<endl;
         cout<<"15.-Exit"<<endl;
         cout<<"---------------------------------------------"<<endl;
-        cout<<"\nPlease enter an option: "<<endl;
+        cout<<"Please enter an option: ";
         cin>>opt;
 
 
@@ -151,20 +151,28 @@ int main()
         case 9:
             system("cls");
             Node *firstStud;
-            cout<<"-------FIRTS STUDENT-------"<<endl;
-            firstStud=(lis->first());
-            cout<<firstStud->data.name<<endl;
-            cout<<firstStud->data.age<<endl;
+            cout << "-------FIRST STUDENT-------" << endl;
+            firstStud = lis->first();
+            if (firstStud != nullptr) {
+                cout << firstStud->data.name << endl;
+                cout << firstStud->data.age << endl;
+            } else {
+                cout << "No students found." << endl;
+            }
             pause();
             break;
 
         case 10:
             system("cls");
             Node *lastStud;
-            cout<<"-------LAST STUDENT-------"<<endl;
-            lastStud=(lis->last());
-            cout<<lastStud->data.name<<endl;
-            cout<<lastStud->data.age<<endl;
+            cout << "-------LAST STUDENT-------" << endl;
+            lastStud = lis->last();
+            if (lastStud != nullptr) {
+                cout << lastStud->data.name << endl;
+                cout << lastStud->data.age << endl;
+            } else {
+                cout << "No students found." << endl;
+            }
             pause();
             break;
 
