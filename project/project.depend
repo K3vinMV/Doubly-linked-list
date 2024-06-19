@@ -10,5 +10,12 @@
 1718760131 source:c:\omar\programacion\c++\doubly-linked-list\project\node.cpp
 	"Node.h"
 
-1718760131 c:\omar\programacion\c++\doubly-linked-list\project\node.h
+1718760473 c:\omar\programacion\c++\doubly-linked-list\project\node.h
+	"Student.h"
+
+1718760292 c:\omar\programacion\c++\doubly-linked-list\project\student.h
+	<iostream>
+
+1718760331 source:c:\omar\programacion\c++\doubly-linked-list\project\student.cpp
+	"Student.h"
 
