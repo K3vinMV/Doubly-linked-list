@@ -1,14 +1,19 @@
 # depslib dependency file v1.0
-1718760145 source:c:\omar\programacion\c++\doubly-linked-list\project\list.cpp
+1718761279 source:c:\omar\programacion\c++\doubly-linked-list\project\list.cpp
 	"List.h"
+	"Student.h"
 
-1718760145 c:\omar\programacion\c++\doubly-linked-list\project\list.h
+1718761196 c:\omar\programacion\c++\doubly-linked-list\project\list.h
+	<iostream>
+	"Student.h"
+	"Node.h"
 
 1584205420 source:c:\omar\programacion\c++\doubly-linked-list\project\main.cpp
 	<iostream>
 
-1718760131 source:c:\omar\programacion\c++\doubly-linked-list\project\node.cpp
+1718760587 source:c:\omar\programacion\c++\doubly-linked-list\project\node.cpp
 	"Node.h"
+	"Student.h"
 
 1718760473 c:\omar\programacion\c++\doubly-linked-list\project\node.h
 	"Student.h"
